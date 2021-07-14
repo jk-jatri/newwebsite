@@ -969,9 +969,9 @@ button:not(:disabled) {
     width: 100%;
     overflow: hidden;
     padding-top: 56.25%; /* 16:9 Aspect Ratio */
-  }
+}
   
-  .responsive_iframe {
+.responsive_iframe {
     position: absolute;
     left: 0;
     right: 0;
@@ -980,4 +980,25 @@ button:not(:disabled) {
     width: 100%;
     height: 100%;
     border: none;
-  }
+}
+
+/* FAQ page Accordion Design */
+.faq_accordion_btn:not(.collapsed) + .faq_accordion_btn::before{
+    filter: invert(1) !important;
+}
+.faq_accordion_btn:not(.collapsed){
+    background-color: #ff6347 !important;
+    color: #fff !important;
+    transition: 0.7s !important;
+}
+
+.faq_accordion_btn:focus{
+    box-shadow: none !important;
+    border: 1px solid #FF6347 !important;
+}
+
+.faq_accordion_item{
+    margin: 5px 0;
+    border-bottom: 1px solid #ddd;
+    /* border: 1px solid #ff6347; */
+}
