@@ -1,0 +1,610 @@
+/* ============== Mobile Portrait ============== */
+
+@media only screen and (max-width: 575px) {
+    .font_A {
+        font-size: 9px !important;
+    }
+    .font_B {
+        font-size: 12px !important;
+    }
+    .font_C {
+        font-size: 11px !important;
+    }
+    .font_D {
+        font-size: 16px !important;
+    }
+    .font_E {
+        font-size: 12px !important;
+    }
+    .font_F {
+        font-size: 12px !important;
+    }
+    .font_G {
+        font-size: 18px !important;
+    }
+    .font_H {
+        font-size: 28px !important;
+    }
+    .font_I {
+        font-size: 20px !important;
+    }
+    .font_J {
+        font-size: 19px !important;
+    }
+    .font_K {
+        font-size: 14px !important;
+    }
+    .font_L {
+        font-size: 30px !important;
+    }
+    .font_M {
+        font-size: 22px !important;
+    }
+    .input_field::placeholder {
+        font-size: 12px;
+    }
+    .contact_child {
+        margin-bottom: 20px;
+    }
+    .contact_us_head {
+        height: 125px;
+    }
+
+    .slider_info h1 {
+        line-height: 22px;
+    }
+    .slider_info p {
+        line-height: 15px;
+    }
+    .main_button {
+        padding: 5px 10px;
+    }
+    .service_head,
+    .demo_head {
+        text-align: center;
+    }
+    .service_child p {
+        text-align: justify;
+        line-height: 15px;
+    }
+    .service_child h5 {
+        font-weight: bold;
+    }
+    .services_mobile_view {
+        margin: 0 auto !important;
+    }
+    .service_card {
+        background: #fff;
+        padding: 5px;
+        box-shadow: 4px -1px 13px #ddd !important;
+    }
+    .demo_card {
+        margin-bottom: 15px;
+    }
+    .subscribe_input,
+    .search-container .subscribe_btn {
+        padding: 5px 15px;
+    }
+    .subscribe_input::placeholder {
+        font-size: 14px;
+    }
+    .demo_title {
+        margin-top: 10px;
+    }
+    .application_image {
+        width: 75%;
+    }
+    .demo_view_more {
+        font-size: 13px;
+    }
+    .office_info p,
+    .ft_menu p {
+        font-size: 11px;
+    }
+    .ftc_btn {
+        margin: 5px 14px 0 0;
+    }
+    .copyright_text {
+        text-align: center;
+    }
+    .app_detail {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 5px 0;
+    }
+    .app_detail p {
+        margin: 0;
+    }
+    .app_detail img {
+        width: 50% !important;
+        float: right;
+    }
+    .subscribe_input {
+        width: 50%;
+    }
+    .footer_app_links {
+        margin-top: 15px !important;
+    }
+    .footer_list,
+    .position_head {
+        text-align: center;
+    }
+    .footer_list li {
+        display: inline;
+        margin: 0px 20px;
+    }
+    .footer_app a img {
+        width: 70% !important;
+    }
+    .footer_app p {
+        margin-top: 15px;
+    }
+    .blog_child h5 {
+        font-weight: 600;
+    }
+    .card_image {
+        height: 120px;
+    }
+    .service_image {
+        height: 250px;
+    }
+    .service_image img {
+        width: 50%;
+    }
+    .description_category h4 {
+        font-weight: bold;
+    }
+    .job_title ul {
+        padding-right: 10px;
+    }
+        
+    .press_logo{
+        width: 35%;
+        margin: 10px auto;
+        display: block;
+    }
+    .dropdown-container .dropdown-toggle {
+        font-size: 17px;
+        padding: 1px 0px !important;
+        margin: 5px 0px !important;
+    }
+    .dropdown-menu::before {
+        top: 41px !important;
+    }
+}
+
+
+/* ============== Mobile Landscape ============== */
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .font_A {
+        font-size: 9px !important;
+    }
+    .font_B {
+        font-size: 12px !important;
+    }
+    .font_C {
+        font-size: 14px !important;
+    }
+    .font_D {
+        font-size: 16px !important;
+    }
+    .font_E {
+        font-size: 15px !important;
+    }
+    .font_F {
+        font-size: 12px !important;
+    }
+    .font_G {
+        font-size: 21px !important;
+    }
+    .font_H {
+        font-size: 28px !important;
+    }
+    .font_I {
+        font-size: 30px !important;
+    }
+    .font_J {
+        font-size: 24px !important;
+    }
+    .font_K {
+        font-size: 14px !important;
+    }
+    .font_L {
+        font-size: 30px !important;
+    }
+    .font_M {
+        font-size: 22px !important;
+    }
+    .input_field::placeholder {
+        font-size: 12px;
+    }
+    .contact_child {
+        margin-bottom: 20px;
+    }
+    .contact_us_head {
+        height: 135px;
+    }
+    .service_card {
+        background: #fff;
+        padding: 5px;
+        box-shadow: 4px -1px 13px #ddd !important;
+    }
+    .demo_card {
+        margin-bottom: 15px;
+    }
+    .subscribe_input,
+    .search-container .subscribe_btn {
+        padding: 5px 15px;
+    }
+    .subscribe_input::placeholder {
+        font-size: 14px;
+    }
+    .demo_title {
+        margin-top: 10px;
+    }
+    .application_image {
+        width: 75%;
+    }
+    .demo_view_more {
+        font-size: 13px;
+    }
+    .office_info p,
+    .ft_menu p {
+        font-size: 11px;
+    }
+    .ftc_btn {
+        margin: 5px 14px 0 0;
+    }
+    .copyright_text,
+    .demo_head,
+    .position_head {
+        text-align: center;
+    }
+    .app_detail p {
+        float: left;
+        margin-top: 7px;
+        margin-right: 20px;
+    }
+    .app_detail img {
+        width: 50% !important;
+        float: right;
+    }
+    .subscribe_input {
+        width: 50%;
+    }
+    .footer_social_btn {
+        margin-top: 15px;
+    }
+    .footer_list {
+        text-align: center;
+    }
+    .footer_list li {
+        display: inline;
+        margin: 0px 20px;
+    }
+    .footer_app a img {
+        width: 70% !important;
+        margin-top: -20px;
+    }
+    .card_image {
+        height: 185px;
+    }
+    .service_image {
+        height: 250px;
+    }
+    .service_image img {
+        width: 45%;
+    }
+    .description_category h4 {
+        font-weight: bold;
+    }
+    
+    .press_logo{
+        width: 50%;
+        margin: 15px auto;
+        display: block;
+    }
+    .dropdown-container .dropdown-toggle {
+        font-size: 17px;
+        padding: 1px 0px !important;
+        margin: 5px 0px !important;
+    }
+    .dropdown-menu::before {
+        top: 41px !important;
+    }
+}
+
+
+/* ============== Small Device ============== */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .font_A {
+        font-size: 9px !important;
+    }
+    .font_B {
+        font-size: 12px !important;
+    }
+    .font_C {
+        font-size: 14px !important;
+    }
+    .font_D {
+        font-size: 16px !important;
+    }
+    .font_E {
+        font-size: 15px !important;
+    }
+    .font_F {
+        font-size: 14px !important;
+    }
+    .font_G {
+        font-size: 21px !important;
+    }
+    .font_H {
+        font-size: 28px !important;
+    }
+    .font_I {
+        font-size: 35px !important;
+    }
+    .font_J {
+        font-size: 32px !important;
+    }
+    .font_K {
+        font-size: 14px !important;
+    }
+    .font_L {
+        font-size: 35px !important;
+    }
+    .font_M {
+        font-size: 23px !important;
+    }
+    .input_field::placeholder {
+        font-size: 13px;
+    }
+    .contact_us_head {
+        height: 135px;
+    }
+
+    .subscribe_input,
+    .search-container .subscribe_btn {
+        padding: 5px 15px;
+    }
+    .subscribe_input::placeholder {
+        font-size: 14px;
+    }
+    .demo_title {
+        margin-top: 10px;
+    }
+    .application_image {
+        width: 75%;
+    }
+    .demo_view_more {
+        font-size: 13px;
+    }
+    .office_info p,
+    .ft_menu p {
+        font-size: 11px;
+    }
+    .ftc_btn {
+        margin: 5px 14px 0 0;
+    }
+    .footer_social_btn {
+        margin-top: 25px;
+    }
+    .footer_app {
+        display: block !important;
+        padding-left: 70px !important;
+    }
+    .copyright_text {
+        margin-top: 5px;
+    }
+    .blog_share_laptop ul {
+        margin-top: 90%;
+    }
+    .position_head {
+        text-align: center;
+    }
+    .card_image {
+        height: 185px;
+    }
+    .service_image {
+        height: 300px;
+    }
+    .service_image img {
+        width: 40%;
+    }
+    .description_category h4 {
+        font-weight: bold;
+    }
+    .dropdown-container .dropdown-toggle {
+        font-size: 17px;
+        padding: 1px 0px !important;
+        margin: 5px 0px !important;
+    }
+    .dropdown-menu::before {
+        top: 41px !important;
+    }
+}
+
+
+/* ============== Medium Device ============== */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .font_A {
+        font-size: 9px !important;
+    }
+    .font_B {
+        font-size: 12px !important;
+    }
+    .font_C {
+        font-size: 14px !important;
+    }
+    .font_D {
+        font-size: 16px !important;
+    }
+    .font_E {
+        font-size: 15px !important;
+    }
+    .font_F {
+        font-size: 16px !important;
+    }
+    .font_G {
+        font-size: 21px !important;
+    }
+    .font_H {
+        font-size: 28px !important;
+    }
+    .font_I {
+        font-size: 35px !important;
+    }
+    .font_J {
+        font-size: 38px !important;
+    }
+    .font_K {
+        font-size: 14px !important;
+    }
+    .font_L {
+        font-size: 38px !important;
+    }
+    .font_M {
+        font-size: 27px !important;
+    }
+    .input_field::placeholder {
+        font-size: 13px;
+    }
+    .contact_us_head {
+        height: 150px;
+    }
+
+    .subscribe_input,
+    .search-container .subscribe_btn {
+        padding: 5px 15px;
+    }
+    .subscribe_input::placeholder {
+        font-size: 14px;
+    }
+    .demo_title {
+        margin-top: 10px;
+    }
+    .card_main {
+        padding: 0 35px 0 0 !important;
+    }
+    .application_image {
+        width: 50%;
+    }
+    .demo_view_more {
+        font-size: 13px;
+    }
+    .office_info p,
+    .ft_menu p {
+        font-size: 11px;
+    }
+    .ftc_btn {
+        margin: 5px 14px 0 0;
+    }
+    .copyright_text {
+        margin-top: 5px;
+    }
+    .footer_app p {
+        text-align: right;
+        margin-top: 13px;
+    }
+    .blog_share_laptop ul {
+        margin-top: 74%;
+    }
+    .description_category h4 {
+        font-weight: bold;
+    }
+}
+
+
+/* ============== Large Device ============== */
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .font_A {
+        font-size: 10px !important;
+    }
+    .font_B {
+        font-size: 13px !important;
+    }
+    .font_C {
+        font-size: 15px !important;
+    }
+    .font_D {
+        font-size: 16px !important;
+    }
+    .font_E {
+        font-size: 18px !important;
+    }
+    .font_F {
+        font-size: 19px !important;
+    }
+    .font_G {
+        font-size: 23px !important;
+    }
+    .font_H {
+        font-size: 28px !important;
+    }
+    .font_I {
+        font-size: 38px !important;
+    }
+    .font_J {
+        font-size: 42px !important;
+    }
+    .font_K {
+        font-size: 14px !important;
+    }
+    .font_L {
+        font-size: 38px !important;
+    }
+    .font_M {
+        font-size: 27px !important;
+    }
+    .input_field::placeholder {
+        font-size: 13px;
+    }
+    .contact_us_head {
+        height: 165px;
+    }
+    .subscribe_input::placeholder {
+        font-size: 16px;
+    }
+    .card_main {
+        padding: 0 35px 0 0 !important;
+    }
+    .application_image {
+        width: 50%;
+    }
+    .demo_view_more {
+        font-size: 13px;
+    }
+    .office_info p,
+    .ft_menu p {
+        font-size: 11px;
+    }
+    .footer_app a img {
+        margin-right: 45px;
+    }
+    .copyright_text {
+        margin-top: 5px;
+    }
+    .footer_app p {
+        text-align: right;
+        margin-top: 13px;
+    }
+    .blog_share_laptop ul {
+        margin-top: 45%;
+    }
+}
+
+
+/* ============== Extra Large Device ============== */
+
+@media only screen and (min-width: 1400px) {
+    .footer_app p {
+        text-align: right;
+        margin-top: 13px;
+        margin-left: 70px;
+    }
+}
